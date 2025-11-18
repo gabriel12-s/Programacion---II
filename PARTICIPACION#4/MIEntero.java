@@ -6,6 +6,8 @@ public class MIEntero {
     public int get() {
         return valor;
     }
+
+    
     public boolean esPar() {
         return valor % 2 == 0;
     }
@@ -80,3 +82,4 @@ public class MIEntero {
         return "MIEntero{" + "valor=" + valor + "}";
     }
 }
+
